@@ -121,6 +121,7 @@ export default {
                 ],
             },
             defaultValue: 'text',
+            bindable: true,
         },
         displayPassword: {
             label: {
