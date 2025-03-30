@@ -334,6 +334,7 @@ export default {
             type: 'OnOff',
             section: 'settings',
             defaultValue: false,
+            bindable: true,
         },
         debounceDelay: {
             type: 'Length',
@@ -347,6 +348,7 @@ export default {
             defaultValue: '500ms',
             responsive: true,
             hidden: content => !content.debounce,
+            bindable: true,
         },
         autocomplete: {
             label: { en: 'Autocomplete', fr: 'Autocomplétion' },
