@@ -1,6 +1,7 @@
 # WW-FORM-INPUT
 
-This is an element for Weweb, to display an input.
+This is an element for Weweb, to display an input. 
+It make the input type and debounce value bindable.
 
 ## Installation
 
